@@ -75,7 +75,6 @@ async def choice_keep_going_node(state:State):
         [
             SystemMessage(content="do you wana turn off your self or you wana keep going?"
                           "yes means keep going and no means turn of your self"),
-            *state["messages"]
         ]
     )
 
